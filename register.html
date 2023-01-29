@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+      body {
+        background: #0084ff;
+        text-align: center;
+      }
+
+    form {
+     width: 300px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #f0f0f0;
+     border: 1px solid #ccc;
+    }
+
+    label {
+     display: block;
+     margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="password"],input[type="email"] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+     font-size: 16px;
+    }
+
+    input[type="submit"] {
+     width: 100%;
+     background-color: #052a91;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+     .button {
+        background-color: rgb(255, 119, 0);
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+   
+</head>
+<body>
+
+  <form>
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido"><br>
+
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" name="usuario"><br>
+
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo"><br>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <input type="submit" value="Registrarse">
+   
+
+    <div class="button-container">
+      <a href="index.html" class="button">Ir al index</a>
+      <a href="login.html" class="button"> Ir al login</a>
+    </div>
+
+  </form>
+
+</body>
+</html>

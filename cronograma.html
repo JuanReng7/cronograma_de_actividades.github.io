@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      body {
+        background: #00ffbf;
+        text-align: center;
+      }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    form {
+     width: 300px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #f0f0f0;
+     border: 1px solid #ccc;
+    }
+
+    label {
+     margin-bottom: 10px;
+    }
+
+    #activity-list {
+      margin-bottom: 20px;
+    }
+
+    select{
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      padding: 12px 29px;
+      margin: 8px 0;
+      font-size: 16px;
+      border-radius: 3px;
+      }
+
+    input[type="date"] {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 12px 29px;
+    margin: 8px 0;
+    font-size: 16px;
+    border-radius: 3px;
+   } 
+    
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Actividades</title>
+</head>
+<body>
+
+
+  <div class="navbar">
+    <a href=""></a>
+    <a href=""></a>
+    <a href="index.html">Salir</a>
+  </div>
+
+  <br><br><br>
+
+    <form>
+
+      <label for="date">Selecciona una fecha:</label>
+      <input type="date" id="date" name="date"><br><br><br>
+
+      <label for="activity-list">Selecciona una actividad:</label>
+        <select id="activity-list" name="activity">
+         <option value="option1">Actividad 1</option>
+         <option value="option2">Actividad 2</option>
+         <option value="option3">Actividad 3</option>
+        </select>
+      <input type="submit" value="Cargar actividad y fecha">
+
+    </form>
+
+   
+
+      <script src="funtion.js"></script>
+</body>
+</html>
